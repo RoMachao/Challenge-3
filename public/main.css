@@ -1,10 +1,17 @@
-html,body{
+#pika{
     background-image: url('https://images5.alphacoders.com/614/614955.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     font-family: 'Numans', sans-serif;
     }
+#chu{
+    background-image: url('fondo4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
 .container{
     height: 100%;
     align-content: center;
@@ -20,38 +27,36 @@ html,body{
     color: white;
     text-align: center;
     }
-.social_icon span{
-    font-size: 60px;
-    margin-left: 10px;
-    color: rgb(54, 112, 187);
-    }
-.social_icon span:hover{
-    color: rgb(52, 168, 235);
-    cursor: pointer;
-    }
-.social_icon{
-    position: absolute;
-    right: 20px;
-    top: -45px;
-    }
-.input-group-prepend span{
-    width: 50px;
-    background-color: rgb(34, 175, 185);
-    color: black;
-    border:0 !important;
-    }
-.login_btn{
-    color: black;
-    background-color: #FFC312;
-     width: 100px;
+
+.rectangulo1{
+    width: 300px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #ff0000;
+    display: relative;
+    margin-top: 70px;
+    margin-left: 490px;
+    text-align: center;
 }
-.login_btn:hover{
-    color: black;
-    background-color: white;
-    }
-.links{
-    color: white;
-    }
-.links a{
-    margin-left: 4px;
-    }
+.rectangulo3{
+    width: 300px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #FFD700;
+    display: relative;
+    margin-top: 70px;
+    margin-left: 490px;
+    text-align: center;
+}
+.rectangulo2{
+    width: 300px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #4169E1;
+    display: relative;
+    margin-top: 70px;
+    margin-left: 490px;
+    text-align: center;
+    
+}
+
